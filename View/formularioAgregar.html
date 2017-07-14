@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+	<title> Agregar departamentos </title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../www/foundation/css/foundation.css"/>
+	<link rel="stylesheet" type="text/css" href="../www/css/style.css">
+
+	</head>
+
+	<body>
+		<form id="formaAgregarUnidad" >
+			<div id="container">
+			 <div class="row">
+			    <div class="large-3 columns">
+			      <label>Nivel
+			        <input type="text" placeholder="Nivel" name="nivel" />
+			      </label>
+			    </div>
+			    <div class="large-3 columns">
+			      <label>Tipo
+			       	<select name="tipoUnidad" onchange="datosUnidad(this.value)">
+					<option value="">Tipo de unidad</option>
+					<option value="A">Tipo A</option>
+					<option value="BJR">Tipo BJR</option>
+					<option value="B">Tipo B</option>
+					<option value="BLUX">Tipo BLUX</option>
+					<option value="B2N">Tipo B2N</option>
+					<option value="C">Tipo C</option>
+					<option value="CLUX">Tipo CLUX</option>
+					<option value="D">Tipo D</option>
+
+					</select>
+			      </label>
+			    </div>
+			    <div class="large-3 columns">
+			    	<label>Recamaras
+			    		<input type="text" placeholder="Recamaras" name="recamaras"/>
+			    	</label>
+
+			    </div>
+			    <div class="large-3 columns"></div>
+			 
+
+			  </div>
+			  <div class="row">
+			    <div class="large-3 columns">
+			      <label>Baños
+			        <input type="text" placeholder="Baños" name="banos" />
+			      </label>
+			    </div>
+			    <div class="large-3 columns">
+			      <label>Superficie
+			        <input type="text" placeholder="Superficie" name="superficie" />
+			      </label>
+			    </div>
+
+			    <div class="large-6 columns"></div>
+
+			  </div>
+
+			  <div class="row">
+			  	<div class="large-6 columns">
+			  		<button class="button" onclick="agregarUnidad(); ">Agregar</button>
+			  		<br>
+			  		<a href="./filtrosBusqueda.html">Busqueda</a>
+			  	</div>
+			  	
+			  </div>
+			</div>
+
+		</form>
+	</body>
+
+
+
+<script type="text/javascript" src="../www/foundation/js/vendor/jquery.js"></script>
+<script type="text/javascript" src="../www/foundation/js/vendor/foundation.js"></script>
+<script type="text/javascript" src="../www/js/modelos.js"></script>
+
+<script type="text/javascript">
+	
+$(function() {
+
+	$(document).foundation();
+});
+
+	
+
+</script>
+</html>

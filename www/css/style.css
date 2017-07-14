@@ -1,0 +1,62 @@
+body{
+}
+
+.row{
+	max-width: 119rem;
+}
+#container{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	
+}
+
+#header{
+	background-color:white;
+	height:60px;
+}
+#strato{
+	color:gray;
+	font-weight: bolder;
+}
+#sur{
+	color:gray;
+}
+
+#logo{
+	text-align: left;
+	font-family: arial;
+	font-size: 25px;
+	line-height: 60px;
+	height: 60px;
+}
+
+#menu{
+	
+	height: 60px;
+	padding-top: 11px;
+	text-align: right;
+
+}
+
+#menu a{
+	color:black;
+
+}
+
+#content{
+	
+}
+
+a:hover{
+	background-color: #ebebe0;
+}
+
+#menu li{
+	border-bottom: solid black 1px;
+}
+
+#searchForm{
+	width:60%;
+	margin: auto;
+}
